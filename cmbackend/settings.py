@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'campaigns',
     'cloudinary',
     'cloudinary_storage',
+    'drf_yasg',
 ]
 
 MIDDLEWARE = [
