@@ -10,3 +10,4 @@ cloudinary
 django-cloudinary-storage
 django-cors-headers
 djangorestframework
+drf_yasg
