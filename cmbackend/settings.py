@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-q-3ldyv3%#di67a#t8z49&l(cj&v9=d%wgaaftf@mr3y=5t8a1
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['campaign-manager-backend-282c.onrender.com']
 
 
 # Application definition
