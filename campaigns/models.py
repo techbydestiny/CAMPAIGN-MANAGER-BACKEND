@@ -27,14 +27,14 @@ class Campaign(models.Model):
         
         self.slug=to_assign
 
-        super().save(**args, **kwargs)
+        super().save(*args, **kwargs)
     
 
 class Subscriber(models.Model):
     campaign = models.ForeignKey(to=Campaign, on_delete=models.DO_NOTHING)
     email = models.EmailField(max_length=254)
     created_at = models.DateTimeField(auto_now_add=True)
-    updated_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
 
     class Meta:
         ordering= ('-created_at',)

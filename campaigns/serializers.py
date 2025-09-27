@@ -10,7 +10,7 @@ class CampaignSerializer(serializers.ModelSerializer):
 
 
 
-class SubsriberSerializer(serializers.ModelSerializer):
+class SubscriberSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Subscriber
