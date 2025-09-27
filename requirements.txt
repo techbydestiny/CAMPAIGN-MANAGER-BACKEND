@@ -9,3 +9,4 @@ dotenv
 cloudinary 
 django-cloudinary-storage
 django-cors-headers
+djangorestframework
